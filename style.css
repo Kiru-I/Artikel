@@ -19,11 +19,11 @@ body {
 
 .imgtext {
     float: right;
-    margin-left: 15px;
-    width: 100%;
-    max-width: 245px;
+    width: 19%;
+    max-width: 90%; /* Adjust the max width */
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px; /* Center the image */
+    margin-left: 10px;
 }
 
 .opening {
@@ -40,6 +40,7 @@ body {
 
 @media (max-width: 768px) {
     .imgtext {
+        max-width: 100%;
         float: none;
         margin-left: 0;
         margin-top: 10px;
