@@ -2,8 +2,8 @@ body{
     background-image: url(bgtuyu.jpeg);
     color: rgb(255, 255, 255);
     text-align: justify;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6%;
+    padding-right: 6%;
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,10 +15,11 @@ body{
     border-radius: 10px;
 }
 .imgtext{
+    position: static;
     float: right;
     margin-left: 15px;
     width: 300px;
-    height: 500px;
+    height: 480px;
     border-radius: 10px;
 }
 .opening{
